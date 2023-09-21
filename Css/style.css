@@ -3,14 +3,29 @@ body {
     font-family: 'Inclusive Sans', sans-serif;
     background: #116A7B
 }
+.Contenedor-Binicio{
+    
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+    padding: 20rem 20em 40em;
 
+    
+}
 h1 {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 100px;
 }
 
 .Con-2 {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 8em;
 }
 
 canvas {
@@ -29,7 +44,7 @@ canvas {
     display: flex;
     place-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 5rem;
 }
 
 .Texto {
@@ -119,10 +134,25 @@ canvas {
         transform: translateX(-50%) translateY(0);
       }
 }
-
-@media (max-width: 468px) {
+.back img{
+    width: 45em;
+    border-radius: 1em;
+    
+    
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2.5em;
+    padding-top: 14em;
+    
+    
+}
+@media screen and (max-width: 768px) {
     body {
-        background: linear-gradient(100deg, blue, purple, pink);
+        display: flex;
+        flex-wrap: wrap;
 
     }
 }
